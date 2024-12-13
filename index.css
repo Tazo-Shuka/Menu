@@ -9,6 +9,13 @@ body{
     margin: 0;
     padding: 0;
 }
+@media (max-width: 768px) {
+    body {
+      background-size: contain; /* Adjust scaling for smaller screens */
+      background-position: center top; /* Position image differently if needed */
+    }
+  }
+  
 .pirveli{
     display: flex;
     text-align: center;
