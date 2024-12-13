@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.pirveli{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+.meore{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.mesame{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+.mesamee{
+    border: 5px solid rgb(238, 190, 127);
+    border-radius: 20px;
+}
+.meotxe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.logo{
+    width: 120px;
+    padding-top: 40px;
+}
+.logo2{
+    padding-top: 0px;
+    padding-left: 10%;
+    width: 120px;
+
+}
+.menu{
+    padding-left: 5px;
+    padding-top: 25px;
+    width: 150px;
+}
+.photo1{
+    width: 250px;
+    border: 5px solid rgb(238, 190, 127);
+    border-radius: 20px;
+}
+.text{
+    font-size: 1.3rem;
+    font-family: "Noto Serif Georgian",serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 215, 176);
+    justify-content: center;
+    align-items: center;
+}
